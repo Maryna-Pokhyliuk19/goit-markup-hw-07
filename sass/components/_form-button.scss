@@ -1,0 +1,23 @@
+.form-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    border: navajowhite;
+
+    letter-spacing: 0.06em;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-button__icon {
+    margin-left: 10px;
+}

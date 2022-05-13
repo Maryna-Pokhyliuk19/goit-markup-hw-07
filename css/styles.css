@@ -147,29 +147,7 @@ transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 10px; 
 }
 
-.header-logo__link
-{
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: var(--accent-color);
-padding-top: 24px;
-padding-bottom: 25px;
-margin-right: 93px;
-}
 
-.header-sublogo__link {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--sublogo-color);
-}
 
 .menu-list__link {
     font-family: "Roboto",
@@ -208,10 +186,33 @@ margin-right: 93px;
     bottom: -1px;
 }
 
+.header-logo__link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+}
+
+.header-sublogo__link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--sublogo-color);
+}
+
 
 /*------------Main-------------------*/
 
-.main {
+.hero {
     background-image: linear-gradient( rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),
     url(../images/hero-bg.jpg);
@@ -222,7 +223,7 @@ margin-right: 93px;
     padding-bottom: 200px;
     background-color: var(--main-content-color); 
 }
-.main__title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -234,7 +235,7 @@ margin-right: 93px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
-.main__button
+.hero__button
 {
     width: 200px;
     height: 50px;
@@ -367,11 +368,6 @@ margin-right: 30px;
     background-color: var(--btn-background-second-color);
 }
 
-.our-team__list {
-display: flex;
-align-items: center;
-}
-
 .our-team__title {
     font-weight: 700;
     font-size: 36px;
@@ -416,6 +412,11 @@ align-items: center;
 {
     margin-right: 30px;}
 
+    .our-team__list {
+        display: flex;
+        align-items: center;
+    }
+
     .soc__link {
         width: 44px;
         height: 44px;
@@ -440,7 +441,7 @@ align-items: center;
     .soc__link:hover .soc__icon {
         fill: var(--background-color);
     }
-    .soc__list {
+    .soc-list {
         display: flex;
         justify-content: center;
         margin-right: 32px;
@@ -516,10 +517,6 @@ align-items: center;
     padding-bottom: 60px;
 }
 
-.adress__list {
-    margin-top: 20px;
-}
-
 .footer-logo__link {
     font-family: 'Raleway';
     font-style: normal;
@@ -541,6 +538,10 @@ align-items: center;
 
 .sublogo--light {
     color: var(--footer-color);
+}
+
+.adress__list {
+    margin-top: 20px;
 }
 
 .adress__link {
@@ -675,7 +676,7 @@ margin-left: 70px;
     justify-content: center;
 }
 
-.footer-icon {
+.form-button__icon {
     margin-left: 10px;    
 }
 
@@ -740,7 +741,7 @@ margin-left: 70px;
 .modal-icon:hover {
     fill: var(--accent-color);
 }
-.modal-title {
+.modal__title {
     
     font-weight: 700;
     font-size: 20px;
@@ -779,7 +780,7 @@ margin-left: 70px;
     border-color: var(--accent-color);
 }
 
-.modal-label {
+.modal-field__label {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
@@ -789,11 +790,11 @@ margin-left: 70px;
     margin-bottom: 4px;
 }
 
-.modal-text {
+.modal-box__text {
     width: 100%;
     height: 128px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.14;
     letter-spacing: 0.01em;
     
@@ -818,7 +819,6 @@ margin-left: 70px;
 
 
 .modal-politic {
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -839,12 +839,12 @@ margin-left: 70px;
     
 }
 
-.modal-field {
+.modal__field {
     margin-bottom: 10px;
     
 }
 
-.modal-field-text {
+.modal__field-text {
     margin-bottom: 20px;
     }
 
@@ -903,7 +903,7 @@ fill: var(--accent-color);
     fill: #FFFFFF;
 }
 
-.modal-button-send {
+.modal-button__send {
     width: 200px;
     height: 50px;
     border-radius: 4px;
@@ -1000,7 +1000,8 @@ margin-right: 0;
     border-radius: 0px 0px 4px 4px;
 }
 
-.project-title {
+.project-card__title {
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -1008,7 +1009,7 @@ margin-right: 0;
     color: var(--second-title-color);
     margin-bottom: 4px;
 }
-.project-text {
+.project-card__text {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -1038,7 +1039,7 @@ margin-right: 0;
 }
 
 
-.project-box-text {
+.project-overlay__text {
     position: absolute;
     top: 63px;
     right:  24px;
