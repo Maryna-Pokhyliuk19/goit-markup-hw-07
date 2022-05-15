@@ -1,19 +1,17 @@
 .our-team {
     background-color: var(--btn-background-second-color);
-}
-
-.our-team__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--second-title-color);
-    margin-bottom: 50px;
-}
-
-.our-team__img {
-    margin-bottom: 30px;
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--second-title-color);
+        margin-bottom: 50px;
+    }
+    &__img {
+        margin-bottom: 30px;
+    }
 }
 
 .our-team__subtitle {
@@ -49,6 +47,5 @@
 }
 
 .our-team__list {
-    display: flex;
-    align-items: center;
+    @extend %align-list;
 }

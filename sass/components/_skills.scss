@@ -1,6 +1,5 @@
 .skills__list {
-    display: flex;
-    align-items: center;
+    @extend %align-list;
 }
 
 .skills__item::before {

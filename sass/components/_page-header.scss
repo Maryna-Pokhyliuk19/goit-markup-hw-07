@@ -1,13 +1,11 @@
-.header__container {
-    display: flex;
-    align-items: center;
-}
-
 .header {
     border-bottom: 1px solid #ECECEC;
+    &__container {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .navigation {
-    display: flex;
-    align-items: center;
+    @extend %align-list;
 }

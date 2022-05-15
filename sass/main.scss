@@ -1,5 +1,7 @@
 @import "./utils/variables";
 @import "./base/reset";
+@import "./utils/placeholder";
+
 @import "./components/page-header";
 @import "./components/logo";
 @import "./components/menu-list";
@@ -18,6 +20,5 @@
 @import "./components/form";
 @import "./components/sub-form";
 @import "./components/form-button";
-
 @import "./components/portfolio";
 @import "./components/project-list";

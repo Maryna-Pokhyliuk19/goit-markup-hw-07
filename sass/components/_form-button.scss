@@ -13,11 +13,10 @@
     letter-spacing: 0.06em;
     background-color: #2196F3;
     color: #FFFFFF;
-    display: flex;
-    align-items: center;
+    @extend %align-list;
     justify-content: center;
+    &__icon {
+        margin-left: 10px;
+    }
 }
 
-.form-button__icon {
-    margin-left: 10px;
-}
